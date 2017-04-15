@@ -54,7 +54,7 @@ h1 {
 }
 
 /*Body section formatting*/
-.bio {
+.bio, .contact, .portfolio {
     margin: 40px 80px 130px 185px;
     background: white;
     color: #777777;
@@ -69,6 +69,7 @@ h2 {
 	margin: 20px;
 	clear: both;
 	border-bottom: 2px #cccccc solid;
+	border-width: 95%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: left;
 }
@@ -95,7 +96,7 @@ h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.connect1 { 
+.connect1, .connect2, .connect3 { 
 	margin: 40px 80px 130px -40px;
     background: white;
     color: #777777;
@@ -104,6 +105,83 @@ h3 {
     width: 305px;
     border: 1px #dddddd solid;
     padding-left: 20px;
+}
+
+/*For contact page*/
+#msg {
+	width: 95%;
+	margin-bottom: 20px;
+	padding: 0px 50px 50px 0px;
+	height: 100px;
+	text-align: left;
+    margin-left: 0px;
+    font-size: 110%;
+}
+
+.label {
+	color: #777777;
+}
+
+.form-group {
+	margin-left: 20px;
+}
+
+#email, #name {
+	width: 95%;
+}
+
+.contact {
+	height: 500px;
+}
+
+
+#submit_button {
+	background: #4aaaa5;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 60px;
+    width: 180px;
+    font-size: 120%;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    border-radius: initial; 
+}
+
+/*For portfolio body*/
+.portfolio {
+	height: 100%;
+    margin-bottom: 0px;
+}
+
+.imgrow1, .imgrow3, .imgrow5 {
+	margin-left: 20px;
+}
+
+.pname1, .pname3, .pname5 {
+	position: relative;
+	bottom: 60px;
+	background: #4aaaa5;
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 120%;
+}
+
+.pname2, .pname4 {
+	position: relative;
+	bottom: 60px;
+    background: #4aaaa5;
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 120%;
+
 }
 
 /*Footer formatting*/
